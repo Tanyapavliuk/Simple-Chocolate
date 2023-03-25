@@ -26,7 +26,6 @@ ul {
   left: 0;
   top: 0;
   border-radius: 20px;
-
 }
 
 @media (min-width: 768px) {
@@ -118,7 +117,7 @@ ul {
 }
 
 .made-btn {
-  background-color: var(--dark-purple);
+  background-color: transparent;
   border-color: var(--white);
   border-radius: 100px;
 }
@@ -130,3 +129,15 @@ ul {
   background-color: var(--white);
 }
 
+.scroll-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  align-items: center;
+  flex-direction: row;
+  padding: 8px 24px;
+  gap: 14px;
+}
