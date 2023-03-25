@@ -13,11 +13,13 @@
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
 
    
+   <!-- Слайдер -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
    
    <link rel="icon" href="/src/public/favicon.svg#icon-chocolate" sizes="any" type="image/svg+xml"/>
 
     <script type="module" crossorigin src="/Simple-Chocolate/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-ee92c7b7.css">
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-6d237c5f.css">
   </head>
   <body>
     <!------------------header -------------------->
@@ -25,7 +27,15 @@
      <!------------------main -------------------->
     <main>
        <!---------Hero --------->
-    
+    <section class="hero">
+            <h1 class="hero-title">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
+           <ul class="list-button">
+            <li><button class="hero-btn buy-btn" type="button">Buy now</button></li>
+            <li><button class="hero-btn made-btn" type="button">How it’s made</button></li>
+           </ul> 
+         
+         
+        </section>
        <!---------Advantages --------->
     
        <!---------components--------->
@@ -39,7 +49,25 @@
        <!---------reviews--------->
     
        <!---------subscribe --------->
-    
+    <section class="subscribe _ibg">
+    <div>
+        <picture>
+            <source srcset="/Simple-Chocolate/assets/Subcribe-mob-531172ac.webp 1x, /Simple-Chocolate/assets/Subcribe-mob@2x-678b3b46.webp 2x" type="image/webp" media="(max-width:374px)"/>
+            <source srcset="/Simple-Chocolate/assets/Subcribe-tabl-bb5f0c65.webp 1x, /Simple-Chocolate/assets/Subcribe-tabl@2x-6657f7a7.webp 2x" type="image/webp" media="(max-width:767px)"/>
+            <source srcset="/Simple-Chocolate/assets/Subcribe-desc-17ea1a07.webp 1x, /Simple-Chocolate/assets/Subcribe-desc@2x-5b6819e1.webp 2x" type="image/webp" media="(min-width: 768px)"/>
+
+            <source srcset="/Simple-Chocolate/assets/Subcribe-mob-9d2e51d3.jpg 1x, /Simple-Chocolate/assets/Subcribe-mob@2x-a39017f4.jpg 2x" type="image/jpeg" media="(max-width:374px)"/>
+            <source srcset="/Simple-Chocolate/assets/Subcribe-tabl-153fe59b.jpg 1x, /Simple-Chocolate/assets/Subcribe-tabl@2x-23ef384d.jpg 2x" type="image/jpeg" media="(max-width:767px)"/>
+            <source srcset="/Simple-Chocolate/assets/Subcribe-desc-57b323cd.jpg 1x, /Simple-Chocolate/assets/Subcribe-desc@2x-732fa773.jpg 2x" type="image/jpeg" media="(min-width: 768px)"/>
+            <img class="_ibg img" src="/Simple-Chocolate/assets/Subcribe-mob-9d2e51d3.jpg" alt="making chocolate" />
+        </picture>
+    </div>
+    <div class="conteiner subscribe-body">
+        <h2 class="subscribe-title">Explore our new <br>chocolate first</h2>
+        <p class="subscribe-text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
+        <button id="subscribe-button" class="">Subscribe</button>
+    </div>
+</section>
     </main>
 
     <!----------------------------footer------------------->
@@ -58,5 +86,7 @@
     
   
     
+    <!-- Слайдер -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>
