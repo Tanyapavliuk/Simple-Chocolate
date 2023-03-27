@@ -32,7 +32,7 @@
       type="image/svg+xml"
     />
     <script type="module" crossorigin src="/Simple-Chocolate/assets/index-3742a209.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-189545a6.css">
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-1aa51658.css">
   </head>
   <body>
     <!------------------header -------------------->
@@ -763,7 +763,170 @@ exceptional taste sensation.</p>
 
     <!------------------------ modal ---------------------->
     <!---------buy--------->
-    
+        <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-button" data-modal-close>
+          <svg class="modal-close-btn">
+            <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <p class="title-modal-buy section-title">
+          <span class="color-title">BUY</span> NOW
+        </p>
+
+        <div class="order-box tablet">
+          <ul class="list order">
+            <li class="card-order">
+              <img
+                srcset="
+                  ./images/buy-now/chocolate.jpg 1x,
+                  ./images/buy-now/chocolate@2x  2x
+                "
+                src="data:image/jpeg;base64,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"
+                alt="chocolate pieces"
+                width="120"
+                class="img-order"
+              />
+              <div class="set-content">
+                <p class="title-order">100 g</p>
+              </div>
+            </li>
+
+            <li class="card-order order-none">
+              <img
+                srcset="
+                  ./images/buy-now/chocolate-bar-dark.jpg 1x,
+                  ./images/buy-now/chocolate-bar-dark@2x  2x
+                "
+                src="data:image/jpeg;base64,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"
+                alt="chocolate dark"
+                width="120"
+                class="img-order"
+              />
+              <div class="set-content">
+                <p class="title-order">100 g</p>
+              </div>
+            </li>
+
+            <li class="card-order order-none">
+              <img
+                srcset="
+                  ./images/buy-now/praline.jpg 1x,
+                  ./images/buy-now/praline@2x  2x
+                "
+                src="data:image/jpeg;base64,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"
+                alt="chocolate praline"
+                width="120"
+                class="img-order"
+              />
+              <div class="set-content">
+                <p class="title-order">100 g</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form
+          class="modal-form"
+          name="buy-now_form"
+          autocomplete="on"
+          novalidate
+        >
+          <div class="form-field">
+            <label for="user_name" class="label-modal"
+              >Personal information</label
+            >
+            <div class="wrapper-form-icons">
+              <input
+                type="text"
+                name="useer_name"
+                id="user_name"
+                class="input-form"
+                placeholder="Name"
+                required
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="2"
+              />
+              <input
+                type="text"
+                name="useer_sur-name"
+                id="user_name"
+                class="input-form"
+                placeholder="Surname"
+                required
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="2"
+              />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="user_email" class="label-modal">Email</label>
+            <div class="wrapper-form-icons">
+              <input
+                type="email"
+                name="user_email"
+                id="user_email"
+                class="input-form"
+                required
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="user_phone" class="label-modal">Phone number</label>
+            <div class="wrapper-form-icons">
+              <input
+                type="tel"
+                name="useer_phone"
+                id="user_phone"
+                class="input-form phone"
+                placeholder="Phone number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                required
+              />
+              <svg class="icons-form">
+                <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-Frame"></use>
+              </svg>
+              <span class="code-tel">+380 </span>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="user_card" class="label-modal">Card number</label>
+            <div class="wrapper-form-icons">
+              <input
+                type="number"
+                name="user_card"
+                id="user_card"
+                class="input-form card"
+                placeholder="Enter card"
+                pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+                title="xxxx-xxxx-xxxx-xxxx"
+                required
+              />
+              <svg class="icons-form-mastercard">
+                <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-Mastercard"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field-textarea">
+            <label for="user_comment" class="label-modal">Comment</label>
+            <textarea
+              name="useer_comment"
+              placeholder="Enter text"
+              id="user_comment"
+              class="comment-form"
+            ></textarea>
+          </div>
+          <button class="button primary btn-forme" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
     <!---------thank you--------->
     
     <!---------Leave a review about our chocolate--------->
