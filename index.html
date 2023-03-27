@@ -32,7 +32,7 @@
       type="image/svg+xml"
     />
     <script type="module" crossorigin src="/Simple-Chocolate/assets/index-3742a209.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-1aa51658.css">
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-75665f3e.css">
   </head>
   <body>
     <!------------------header -------------------->
@@ -137,7 +137,7 @@
       <section class="hero conteiner">
     <h1 class="hero-title">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
    <ul class="list-button">
-    <div class="btn-container"><li><button class="hero-btn buy-btn" type="button">Buy now</button></li>
+    <div class="btn-container"><li><button class="hero-btn buy-btn js-open-modal" type="button" data-modal="1">Buy now</button></li>
     <li><button class="dark hero-btn made-btn" type="button">How it’s made</button></li></div>
     <li><button class="light hero-btn scroll-btn" type="button">scroll down
        <svg class="scroll-icon">
@@ -763,9 +763,8 @@ exceptional taste sensation.</p>
 
     <!------------------------ modal ---------------------->
     <!---------buy--------->
-        <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-close-button" data-modal-close>
+    <div class="modal" data-modal="1">
+        <button type="button" class="modal-close-button js-modal-close">
           <svg class="modal-close-btn">
             <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
           </svg>
@@ -924,9 +923,9 @@ exceptional taste sensation.</p>
             ></textarea>
           </div>
           <button class="button primary btn-forme" type="submit">Submit</button>
-        </form>
-      </div>
-    </div>
+  </form>
+</div>
+
     <!---------thank you--------->
     
     <!---------Leave a review about our chocolate--------->
