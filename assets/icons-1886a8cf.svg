@@ -34,6 +34,10 @@
 <path d="M7.888 40.151l21.554-34.849 1.28-1.348 16.471 10.982 0.113 6.627 4.020 6.559-17.759 28.153-25.678-16.125z"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M43.269 47.759l-28.371-17.728M22.722 17.197l28.371 17.728M21.26 51.729l23.471-38.501M54.353 29.578c-6.079-3.799-8.467-6.768-4.555-13.185l-19.252-12.030-23.471 38.501 28.371 17.728 18.907-31.014z"></path>
 </symbol>
+<symbol id="icon-ukr" viewBox="0 0 32 32">
+<path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M31.832 5.058h-31.59v23.509h31.59v-23.509z"></path>
+<path fill="#0057b7" style="fill: var(--color2, #0057b7)" d="M0.243 5.058h31.589v11.754h-31.59v-11.754z"></path>
+</symbol>
 <symbol id="icon-Frame" viewBox="0 0 41 32">
 <path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M40.745 1.355h-40.434v30.090h40.434v-30.090z"></path>
 <path fill="#0057b7" style="fill: var(--color2, #0057b7)" d="M0.311 1.355h40.434v15.045h-40.434v-15.045z"></path>
