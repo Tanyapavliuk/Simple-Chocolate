@@ -32,11 +32,105 @@
       type="image/svg+xml"
     />
     <script type="module" crossorigin src="/Simple-Chocolate/assets/index-99d9edf4.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-acaa1198.css">
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-52e16c88.css">
   </head>
   <body>
     <!------------------header -------------------->
-    
+    <header class="header">
+  <div class="container container-header">
+    <nav class="nav-header">
+      <a href="../index.html" class="logo"
+        ><span class="logo-simply">SIMPLY</span
+        ><span class="logo-chocolate">CHOCOLATE</span
+        ><svg class="main-icon icon">
+          <use href="../images/icons.svg#icon-logochocolate"></use>
+        </svg>
+      </a>
+      <button
+        type="button"
+        class="menu-button js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="mobile-icon icon" aria-label="mobile menu switcher">
+          <use href="../images/icons.svg#icon-burger" class="icon-menu"></use>
+        </svg>
+      </button>
+      <ul class="nav">
+        <li class="nav-list"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-list"><a href="" class="nav-link">How it’s made?</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Our products</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Top sellers</a></li>
+        <li class="nav-list">
+          <a href="" class="nav-link">Chocolate is loved</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="nav-social">
+      <ul class="nav-social-list">
+        <li class="nav-social-link">
+          <a href="https://www.instagram.com/"
+            ><svg class="social-icon icon">
+              <use href="../images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-social-link">
+          <a href="https://twitter.com/"
+            ><svg class="social-icon icon">
+              <use href="../images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="mobile-btn-close js-close-menu">
+      <svg class="icon-close-menu">
+        <use href="/Simple-Chocolate/assets/icons-e2d943ac.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="mobile-nav">
+      <ul class="mobile-menu list">
+        <li class="menu-item">
+          <a href="" class="mobile-link">Home</a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="mobile-link">How it’s made?</a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="mobile-link">Our products</a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="mobile-link">Top sellers</a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="mobile-link">Chocolate is loved</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-menu-social">
+      <ul class="list social-med-list">
+        <li class="menu-item">
+          <a href="" class="icon-link">
+            <svg class="menu-social-icon">
+              <use href="/Simple-Chocolate/assets/icons-e2d943ac.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="icon-link">
+            <svg class="menu-social-icon">
+              <use href="/Simple-Chocolate/assets/icons-e2d943ac.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
     <!------------------main -------------------->
     <main>
       <!---------Hero --------->
@@ -545,6 +639,8 @@
     <div class="overlay js-overlay-modal"></div>
 
     
+    <!-- Мобільне меню -->
+    <script src="./js/mobile-menu.js"></script>
     <!-- Слайдер -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
