@@ -31,8 +31,8 @@
       sizes="any"
       type="image/svg+xml"
     />
-    <script type="module" crossorigin src="/Simple-Chocolate/assets/index-99d9edf4.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-8534f9aa.css">
+    <script type="module" crossorigin src="/Simple-Chocolate/assets/index-3742a209.js"></script>
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-189545a6.css">
   </head>
   <body>
     <!------------------header -------------------->
@@ -633,7 +633,7 @@ exceptional taste sensation.</p>
         </div>
       </li>
     </ul>
-    <button class="btn-review">Leave a review</button>
+    <button class="btn-review js-open-modal" data-modal="4">Leave a review</button>
   </div>
 </section>
 <!-- Modal
@@ -685,7 +685,7 @@ exceptional taste sensation.</p>
     <div class="conteiner subscribe-body">
         <h2 class="subscribe-title">Explore our new <br>chocolate first</h2>
         <p class="subscribe-text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
-        <button id="subscribe-button" class="button primary js-open-modal" data-modal="5">Subscribe</button>
+        <button class="button primary js-open-modal" data-modal="5">Subscribe</button>
     </div>
 </section>
 
@@ -768,8 +768,8 @@ exceptional taste sensation.</p>
     
     <!---------Leave a review about our chocolate--------->
     <!-- Modal -->
-<div class="modal-review conteiner">
-  <button class="close-modal-rev" type="button">
+<div class="modal-review modal" data-modal="4">
+  <button class="close-modal-rev js-modal-close" type="button">
     <svg class="icon-close">
       <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
     </svg>
@@ -779,7 +779,7 @@ exceptional taste sensation.</p>
   <form class="form-review" action="">
     <input class="input-review" type="name" placeholder="Name" />
     <input class="input-review" type="mail" placeholder="Email" />
-    <input class="input-review review-number" type="tel" placeholder="| Phone number" />
+    <input class="input-review review-number" type="tel" placeholder="Phone number" />
     <span class="ukr-number">
         <svg class="number-icon">
         <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-ukr"></use>
@@ -840,7 +840,7 @@ exceptional taste sensation.</p>
       class="close-modal-explore js-modal-close"
       data-modal-close
     >
-      <svg class="iconbutton" width="16" height="16">
+      <svg class="iconbutton js-modal-close" width="16" height="16">
         <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
       </svg>
     </button>
@@ -873,8 +873,7 @@ exceptional taste sensation.</p>
     <div class="overlay js-overlay-modal"></div>
 
     
-    <!-- Мобільне меню -->
-    <script src="./js/mobile-menu.js"></script>
+
     <!-- Слайдер -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
