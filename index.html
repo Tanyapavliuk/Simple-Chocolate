@@ -32,7 +32,7 @@
       type="image/svg+xml"
     />
     <script type="module" crossorigin src="/Simple-Chocolate/assets/index-4a502239.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-656573b2.css">
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-b7d9f06e.css">
   </head>
   <body>
     <!------------------header -------------------->
@@ -981,14 +981,13 @@ exceptional taste sensation.</p>
               class="comment-form"
             ></textarea>
           </div>
-          <button class="button primary btn-forme" type="submit">Submit</button>
+          <button class="button primary btn-forme js-open-modal" data-modal="2" type="submit">Submit</button>
   </form>
 </div>
 
     <!---------thank you--------->
-    <div class="backdrop is-hidden" data-modal>
-  <div class="modal thanks">
-    <button type="button" class="modal-close-button thanks" data-modal-close>
+    <div class="modal thanks" data-modal="2">
+    <button type="button" class="modal-close-button thanks js-modal-close" data-modal-close>
       <svg class="modal-close-btn thanks">
         <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
       </svg>
@@ -1007,7 +1006,7 @@ exceptional taste sensation.</p>
       class="img-thanks"
     />
   </div>
-</div>
+
 
 
     <!---------Leave a review about our chocolate--------->
@@ -1070,13 +1069,12 @@ exceptional taste sensation.</p>
         class="comment-form"
       ></textarea>
     </div>
-    <button class="btn-send-reveiw" type="submit">Send</button>
+    <button class="btn-send-reveiw js-open-modal" type="submit" data-modal="3">Send</button>
   </form>
 </div>
     <!---------Thank you for your feedback--------->
-    <div class="backdrop is-hidden" data-modal>
-  <div class="modal feedback">
-    <button type="button" class="modal-close-button feedback" data-modal-close>
+    <div class="modal feedback" data-modal="3">
+    <button type="button" class="modal-close-button feedback js-modal-close">
       <svg class="modal-close-btn feedback">
         <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
       </svg>
@@ -1165,7 +1163,7 @@ exceptional taste sensation.</p>
         placeholder="Enter your email"
         aria-label="email"
       />
-      <button class="button-modal-explore" type="submit">Submit</button>
+      <button class="button-modal-explore js-modal-close" type="submit">Submit</button>
     </form>
   </div>
 </div>
