@@ -32,7 +32,7 @@
       type="image/svg+xml"
     />
     <script type="module" crossorigin src="/Simple-Chocolate/assets/index-4a502239.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-6fe81413.css">
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-656573b2.css">
   </head>
   <body>
     <!------------------header -------------------->
@@ -986,29 +986,27 @@ exceptional taste sensation.</p>
 </div>
 
     <!---------thank you--------->
-    <div class="modal-thank is-hidden" modal-thank>
-    <button type="button" class="button-thank" modal-thank-close>
-        <svg class="thank-close" width="18" height="18">
-            <use href="../images/icons.svg#icon-close"></use>
-        </svg>
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal thanks">
+    <button type="button" class="modal-close-button thanks" data-modal-close>
+      <svg class="modal-close-btn thanks">
+        <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
+      </svg>
     </button>
-    <div class="thank-paragraph">
-        <h2 class="thank-title">thank you!</h2>
-        <p class="thank-text">We are glad that you ordered our chocolate and we are giving you a 20% discount on all our products.</p>
-    </div>
-    
-    <picture class="thank-icon">
-        <source
-        srcset="/Simple-Chocolate/assets/modal_thank-fa0c97ee.png "
-        media="(max-width: 767px)" width="296" height="396">
 
-        <source
-        srcset="/Simple-Chocolate/assets/modal_thank_tablet-45cdba93.png "
-        media="(min-width: 768px)">
+    <p class="title-modal-thanks">thank you!</p>
+    <p class="text-modal-thanks">
+      We are glad that you ordered our chocolate and we are giving you a 20%
+      discount on all our products.
+    </p>
 
-        <img src="/Simple-Chocolate/assets/modal_thank-fa0c97ee.png" alt="chocolate" width="296" height="396">
-    </picture>
-   
+    <img
+      srcset="/Simple-Chocolate/assets/chocolate-7fa0e0fc.png 1x, /Simple-Chocolate/assets/chocolate@2x-23b8a086.png 2x"
+      src="/Simple-Chocolate/assets/chocolate-7fa0e0fc.png"
+      alt="Сhocolate dark"
+      class="img-thanks"
+    />
+  </div>
 </div>
 
 
@@ -1076,7 +1074,29 @@ exceptional taste sensation.</p>
   </form>
 </div>
     <!---------Thank you for your feedback--------->
-    
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal feedback">
+    <button type="button" class="modal-close-button feedback" data-modal-close>
+      <svg class="modal-close-btn feedback">
+        <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <p class="title-modal-feedback">
+      thank you <br />
+      for your feedback!
+    </p>
+    <p class="text-modal-feedback">We are so happy to hear from you!</p>
+
+    <img
+      srcset="/Simple-Chocolate/assets/chocolate-7fa0e0fc.png 1x, /Simple-Chocolate/assets/chocolate@2x-23b8a086.png 2x"
+      src="/Simple-Chocolate/assets/chocolate-7fa0e0fc.png"
+      alt="Сhocolate dark"
+      class="img-thanks"
+    />
+  </div>
+</div>
+
     <!---------Explore our new chocolate first--------->
     <div class="modal modal-explore" data-modal="5">
   <div class="conteiner-picture">
