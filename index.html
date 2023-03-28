@@ -36,7 +36,7 @@
   </head>
   <body>
     <!------------------header -------------------->
-    <header class="header">
+    <header class="header" id="home">
   <div class="container container-header">
     <nav class="nav-header">
       <a href="./index.html" class="logo"
@@ -142,7 +142,7 @@
     <!------------------main -------------------->
     <main>
       <!---------Hero --------->
-      <section class="hero conteiner">
+      <section class="hero conteiner" id="hero">
   <a name="Home"></a>
   <h1 class="hero-title">
     Treat yourself or a loved one to our finest ingredients for a moment of pure
@@ -160,18 +160,22 @@
         </button>
       </li>
       <li>
-        <button class="dark hero-btn made-btn" type="button">
-          How it’s made
-        </button>
+        <a href="#made-section">
+          <button class="dark hero-btn made-btn" type="button">
+            How it’s made
+          </button>
+        </a>
       </li>
     </div>
     <li>
+    <a href="#footer">
       <button class="light hero-btn scroll-btn" type="button">
         scroll down
         <svg class="scroll-icon">
           <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-scroll"></use>
         </svg>
       </button>
+    </a>
     </li>
   </ul>
 </section>
@@ -377,7 +381,7 @@ exceptional taste sensation.</p>
 </section>
 
       <!---------products--------->
-       <section class="produckts">
+       <section class="produckts" id="produckts">
     <a name="Our products"></a>
     <h2 class="produckts-title">
         <span class="color-our">OUR</span>
@@ -581,7 +585,7 @@ exceptional taste sensation.</p>
 </section> 
 
       <!---------sellers--------->
-      <section class="section top-sellers">
+      <section class="section top-sellers" id="top-sellers">
   <div class="conteiner top-sellers">
     <a name="Top sellers"></a>
     <h2 class="section-title"><span class="color-title">TOP</span> SELLERS</h2>
@@ -636,7 +640,7 @@ exceptional taste sensation.</p>
 </section>
 
       <!---------reviews--------->
-      <section class="section section-review">
+      <section class="section section-review" id="review">
   <div class="conteiner">
     <a name="Chocolate is loved"></a>
     <h2 class="title-review">
@@ -760,7 +764,7 @@ exceptional taste sensation.</p>
     </main>
 
     <!----------------------------footer------------------->
-    <footer class="holder">
+    <footer class="holder" id="footer">
   <div class="conteiner">
     <div class="contact-conteiner">
       <p class="footer-paragraph">
@@ -811,16 +815,16 @@ exceptional taste sensation.</p>
         <ul class="navigation-style">
           <li class="item-navigation"><a href="#home">Home</a></li>
           <li class="item-navigation">
-            <a href="#how it&rsquo;s made?">How it&rsquo;s made?</a>
+            <a href="#made-section">How it&rsquo;s made?</a>
           </li>
           <li class="item-navigation">
-            <a href="#our products">Our products</a>
+            <a href="#produckts">Our products</a>
           </li>
           <li class="item-navigation">
-            <a href="#top sellers">Top sellers</a>
+            <a href="#top-sellers">Top sellers</a>
           </li>
           <li class="item-navigation">
-            <a href="#chocolate is loved">Chocolate is loved</a>
+            <a href="#review">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
