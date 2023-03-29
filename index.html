@@ -890,6 +890,43 @@
               <div class="set-content">
                 <p class="title-order">100 g</p>
               </div>
+
+            </li>
+          </ul>
+        </div>
+
+        <form
+          class="modal-form"
+          name="buy-now_form"
+          autocomplete="on"
+          novalidate
+        >
+          <div class="form-field">
+            <label for="user_name" class="label-modal"
+              >Personal information</label
+            >
+            <div class="wrapper-form-icons">
+              <input
+                type="text"
+                name="useer_name"
+                id="user_name"
+                class="input-form"
+                placeholder="Name"
+                required
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="2"
+              />
+              <input
+                type="text"
+                name="useer_sur-name"
+                id="user_sur-name"
+                class="input-form"
+                placeholder="Surname"
+                required
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="2"
+              />
+
             </div>
           </div>
         </div>
@@ -938,19 +975,23 @@
       </div>
     </div>
 
-    <div class="form-field">
-      <label for="user_email" class="label-modal">Email</label>
-      <div class="wrapper-form-icons">
-        <input
-          type="email"
-          name="user_email"
-          id="user_email"
-          class="input-form"
-          required
-          placeholder="Enter your email"
-        />
-      </div>
-    </div>
+          <div class="form-field">
+            <label for="user_card" class="label-modal">Card number</label>
+            <div class="wrapper-form-icons">
+              <input
+                type="number"
+                name="user_card"
+                id="user_card"
+                class="input-form card"
+                placeholder="Enter card"
+                title="xxxx-xxxx-xxxx-xxxx"
+                required
+              />
+              <svg class="icons-form-mastercard">
+                <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-Mastercard"></use>
+              </svg>
+            </div>
+          </div>
 
     <div class="form-field">
       <label for="user_phone" class="label-modal">Phone number</label>
