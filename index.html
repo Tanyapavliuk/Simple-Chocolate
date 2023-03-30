@@ -32,7 +32,7 @@
       type="image/svg+xml"
     />
     <script type="module" crossorigin src="/Simple-Chocolate/assets/index-ce51f25c.js"></script>
-    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-0777c520.css">
+    <link rel="stylesheet" href="/Simple-Chocolate/assets/index-d7b22e54.css">
   </head>
   <body>
     <!------------------header -------------------->
@@ -147,8 +147,8 @@
     Treat yourself or a loved one to our finest ingredients for a moment of pure
     delight!
   </h1>
-  <ul class="list-button">
-    <div class="btn-container">
+  <div class="list-button">
+    <ul class="btn-container">
       <li>
         <button
           class="hero-btn buy-btn js-open-modal"
@@ -159,18 +159,18 @@
         </button>
       </li>
       <li>
-          <a href="#made-section" class="dark hero-btn made-btn" >
+          <button class="dark hero-btn made-btn" type="button"><a href="#made-section"></a>
             How it’s made
-          </a>
+          </button>
       </li>
     </div>
     <li>
-      <a class="light hero-btn scroll-btn" href="#footer">
+      <button class="light hero-btn scroll-btn" type="button">
         scroll down
         <svg class="scroll-icon">
           <use href="/Simple-Chocolate/assets/icons-1886a8cf.svg#icon-scroll"></use>
         </svg>
-      </a>
+      </button>
     </li>
   </ul>
 </section>
@@ -388,7 +388,7 @@
         <div class="swiper-slide slide-products">
     <div class="produckts-list swiper-zoom-container">
      <li class="produckts-img">
-        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/orange-7ad13c57.jpg 1x, /Simple-Chocolate/assets/orange@2x-f008a0e4.jpg 2x"
+        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/orange-7ad13c57.jpg 1x ./images/produckts/orange@2x.jpg 2x"
             src="/Simple-Chocolate/assets/orange-7ad13c57.jpg"
             width="230"
             height="201"
@@ -429,7 +429,7 @@
         <div class="swiper-slide">
       <div class="produckts-list swiper-zoom-container">
      <li class="produckts-img">
-        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/lime-43d58fb4.jpg 1x, /Simple-Chocolate/assets/lime-43d58fb4.jpg 2x"
+        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/lime-43d58fb4.jpg 1x ./images/produckts/lime@2x.jpg 2x"
             src="/Simple-Chocolate/assets/lime-43d58fb4.jpg"
             width="230"
             height="201"
@@ -450,7 +450,7 @@
         <div class="swiper-slide">
           <div class="produckts-list swiper-zoom-container">
           <li class="produckts-img">
-        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/pineapple-566c14f7.jpg 1x, /Simple-Chocolate/assets/pineapple@2x-1a2ecda8.jpg 2x"
+        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/pineapple-566c14f7.jpg 1x ./images/produckts/pineapple@2x.jpg 2x"
             src="/Simple-Chocolate/assets/pineapple-566c14f7.jpg"
             width="230"
             height="201"
@@ -471,7 +471,7 @@
         <div class="swiper-slide">
           <div class="produckts-list swiper-zoom-container">
           <li class="produckts-img">
-        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/classik-36154e16.jpg 1x, /Simple-Chocolate/assets/classik@2x-4bf85d58.jpg 2x"
+        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/classik-36154e16.jpg 1x ./images/produckts/classik@2x.jpg 2x"
             src="/Simple-Chocolate/assets/classik-36154e16.jpg"
             width="230"
             height="201"
@@ -492,7 +492,7 @@
         <div class="swiper-slide">
           <div class="produckts-list swiper-zoom-container">
           <li class="produckts-img">
-        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/honey-b19c56fd.jpg 1x, /Simple-Chocolate/assets/honey@2x-05e88c81.jpg 2x"
+        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/honey-b19c56fd.jpg 1x ./images/produckts/honey@2x.jpg 2x"
             src="/Simple-Chocolate/assets/honey-b19c56fd.jpg"
             width="230"
             height="201"
@@ -513,7 +513,7 @@
         <div class="swiper-slide">
           <div class="produckts-list swiper-zoom-container">
           <li class="produckts-img">
-        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/roasted-20dc24b9.jpg 1x, /Simple-Chocolate/assets/roasted@2x-bdafd5a3.jpg 2x"
+        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/roasted-20dc24b9.jpg 1x ./images/produckts/roasted@2x.jpg 2x"
             src="/Simple-Chocolate/assets/roasted-20dc24b9.jpg"
             width="230"
             height="201"
@@ -533,7 +533,7 @@
         <div class="swiper-slide">
         <div class="produckts-list  swiper-zoom-container">
         <li class="produckts-img"> 
-        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/white-eb196dc3.jpg 1x, /Simple-Chocolate/assets/white@2x-30f43c7b.jpg 2x"
+        <img class="produckts-photo" srcset="/Simple-Chocolate/assets/white-eb196dc3.jpg 1x ./images/produckts/white@2x.jpg 2x"
             src="/Simple-Chocolate/assets/white-eb196dc3.jpg"
             width="230"
             height="201"
@@ -894,41 +894,6 @@
             </li>
           </ul>
         </div>
-
-        <form
-          class="modal-form"
-          name="buy-now_form"
-          autocomplete="on"
-          novalidate
-        >
-          <div class="form-field">
-            <label for="user_name" class="label-modal"
-              >Personal information</label
-            >
-            <div class="wrapper-form-icons">
-              <input
-                type="text"
-                name="useer_name"
-                id="user_name"
-                class="input-form"
-                placeholder="Name"
-                required
-                pattern="^[a-zA-Zа-яА-Я]+$"
-                minlength="2"
-              />
-              <input
-                type="text"
-                name="useer_sur-name"
-                id="user_sur-name"
-                class="input-form"
-                placeholder="Surname"
-                required
-                pattern="^[a-zA-Zа-яА-Я]+$"
-                minlength="2"
-              />
-
-            </div>
-          </div>
         </div>
         
     </div>
