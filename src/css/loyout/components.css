@@ -12,8 +12,7 @@
   text-align: center;
   width: 411px;
   margin-bottom: 28px;
-  margin: 0 auto;
-  padding-bottom: 28px;
+  margin: 0 auto 28px;
 }
 
 @media (max-width: 767px) {
@@ -36,7 +35,7 @@
   width: 486px;
   margin-bottom: 50px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 @media (max-width: 767px) {
   .text-components {

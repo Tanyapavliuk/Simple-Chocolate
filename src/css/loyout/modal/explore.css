@@ -40,6 +40,9 @@
 }
 .close-modal-explore {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 15px;
   right: 14px;
   stroke: var(--color--white-text);

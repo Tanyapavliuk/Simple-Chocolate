@@ -4,9 +4,13 @@
   pagination: {
     el: '.produckts-pagination',
     clickable: true,
+   },
+   zoom: {
+     maxRatio: 1.3,
+     minRatio: 1,
   },
   breakpoints :{
-    375 :{
+    0 :{
       slidesPerView: 1,
     },
     758 :{
@@ -24,7 +28,9 @@ new Swiper ('.swiper-buy', {
   pagination: {
     el: '.pagination-buy',
     clickable: true,
-   },
+  },
+ 
+
   breakpoints :{
     375 :{
       slidesPerView: 1,

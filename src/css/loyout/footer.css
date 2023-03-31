@@ -1,5 +1,11 @@
 .holder {
   background-color: #1e1823;
+  padding: 32px 0;
+}
+@media screen and (min-width: 768px) {
+  .holder {
+    padding: 50px 0;
+  }
 }
 .contact-conteiner {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -8,12 +14,12 @@
 
 @media screen and (max-width: 426px) {
   .contact-conteiner {
-    padding: 32px 0;
+    padding-bottom: 32px;
   }
 }
 @media screen and (min-width: 426px) {
   .contact-conteiner {
-    padding: 50px 0;
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -53,7 +59,6 @@
   line-height: 34px;
   letter-spacing: -0.02em;
   color: var(--color--white-text);
-  margin: 0 0 32px 0;
 }
 .span-footer-paragraph {
   color: var(--color--brend);
@@ -105,12 +110,12 @@
 }
 @media screen and (max-width: 426px) {
   .conteiner-navigation {
-    padding: 32px 0;
+    margin: 32px 0;
   }
 }
 @media screen and (min-width: 426px) {
   .conteiner-navigation {
-    padding: 24px 0 50px 0;
+    margin: 24px 0 0 0;
   }
 }
 
@@ -120,13 +125,14 @@
   font-size: 14px;
   line-height: 16px;
   display: flex;
+  gap: 24px;
   letter-spacing: -0.02em;
   color: var(--color--white-text);
-  gap: 24px;
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
   .navigation-style {
     flex-direction: column;
+    gap: 18px;
   }
 }
 .item-navigation:hover,

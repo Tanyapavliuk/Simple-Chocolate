@@ -18,6 +18,8 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  margin-bottom: 32px;
+
 }
 
 .text-top-sellers {
@@ -77,6 +79,8 @@
   }
 
   .item-top-sellers {
+    display: flex;
+
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 32px;
@@ -91,6 +95,8 @@
   }
 
   .img-top-sellers {
+ margin-bottom: 0px;
+
     max-width: 344px;
     margin-bottom: 0px;
   }
