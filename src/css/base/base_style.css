@@ -17,6 +17,8 @@
     font-size: 0.875rem;
     color: var(--color--black-text);
     background-color: var(--color--bg);
+
+    scroll-behavior: smooth;
   }
 
   .conteiner{
@@ -55,3 +57,4 @@
     padding:128px 0;
   }
 }
+
