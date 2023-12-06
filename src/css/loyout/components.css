@@ -12,15 +12,13 @@
   text-align: center;
   width: 411px;
   margin-bottom: 28px;
-  margin: 0 auto;
-  padding-bottom: 28px;
+  margin: 0 auto 28px;
 }
 
 @media (max-width: 767px) {
   .title-components {
     font-size: 20px;
     max-width: 283px;
-    width: 100%;
   }
 }
 .title-components-second {
@@ -37,11 +35,10 @@
   width: 486px;
   margin-bottom: 50px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 @media (max-width: 767px) {
   .text-components {
-    width: 100%;
     max-width: 335px;
   }
 }
@@ -72,8 +69,7 @@
   color: var(--color--black-text);
 }
 .components-cards {
-  max-width: 270px;
-  width: 100%;
+  width: 270px;
   height: 270px;
   border: 1px solid #fd9222;
   border-radius: 15px;

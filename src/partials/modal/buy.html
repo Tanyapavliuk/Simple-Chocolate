@@ -4,22 +4,22 @@
       <use href="./images/icons.svg#icon-close"></use>
     </svg>
   </button>
-
   <p class="title-modal-buy section-title">
     <span class="color-title">BUY</span> NOW
   </p>
-
   <!-- SWIPER -->
   <div class="body_swiper-buy">
-    <div class="swiper-buy">
+    <div class="swiper swiper-buy">
       <div class="swiper-wrapper order-box">
         <div class="swiper-slide">
           <div class="list order ull">
             <div class="card-order lii">
               <img
                 srcset="
-                  ./images/buy-now/chocolate.jpg 1x,
-                  ./images/buy-now/chocolate@2x.jpg  2x
+
+                  ./images/buy-now/chocolate.jpg    1x,
+                  ./images/buy-now/chocolate@2x.jpg 2x
+
                 "
                 src="./images/buy-now/chocolate.jpg"
                 alt="chocolate pieces"
@@ -32,14 +32,14 @@
             </div>
           </div>
         </div>
-
         <div class="swiper-slide">
           <div class="list order ull">
             <div class="card-order lii">
               <img
                 srcset="
-                  ./images/buy-now/chocolate-bar-dark.jpg 1x,
-                  ./images/buy-now/chocolate-bar-dark@2x.jpg  2x
+                  ./images/buy-now/chocolate-bar-dark.jpg    1x,
+                  ./images/buy-now/chocolate-bar-dark@2x.jpg 2x
+
                 "
                 src="./images/buy-now/chocolate-bar-dark.jpg"
                 alt="chocolate dark"
@@ -52,14 +52,14 @@
             </div>
           </div>
         </div>
-
         <div class="swiper-slide">
           <div class="list order ull">
             <div class="card-order lii">
               <img
                 srcset="
-                  ./images/buy-now/praline.jpg 1x,
-                  ./images/buy-now/praline@2x.jpg  2x
+                  ./images/buy-now/praline.jpg    1x,
+                  ./images/buy-now/praline@2x.jpg 2x
+
                 "
                 src="./images/buy-now/praline.jpg"
                 alt="chocolate praline"
@@ -69,36 +69,31 @@
               <div class="set-content">
                 <p class="title-order">100 g</p>
               </div>
-
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-        </div>
-        
-    </div>
+      </div>
     </div>
     <!-- pagination -->
     <div
-    class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal pagination-buy"
-  >
-    <span
-      class="swiper-pagination-bullet swiper-pagination-bullet-active"
-      aria-current="true"
-    ></span>
-    <span class="swiper-pagination-bullet"></span>
-    <span class="swiper-pagination-bullet"></span>
+      class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal pagination-buy"
+    >
+      <span
+        class="swiper-pagination-bullet swiper-pagination-bullet-active"
+        aria-current="true"
+      ></span>
+      <span class="swiper-pagination-bullet"></span>
+      <span class="swiper-pagination-bullet"></span>
     </div>
-</div>
-
+  </div>
    
-
   <form class="modal-form" name="buy-now_form" autocomplete="on" novalidate>
     <div class="form-field">
       <label for="user_name" class="label-modal">Personal information</label>
       <div class="wrapper-form-icons">
         <input
           type="text"
-          name="useer_name"
+          name="user_name"
           id="user_name"
           class="input-form"
           placeholder="Name"
@@ -108,8 +103,8 @@
         />
         <input
           type="text"
-          name="useer_sur-name"
-          id="user_name"
+          name="user_name"
+          id="user_sur-name"
           class="input-form"
           placeholder="Surname"
           required
@@ -118,25 +113,19 @@
         />
       </div>
     </div>
-
-          <div class="form-field">
-            <label for="user_card" class="label-modal">Card number</label>
-            <div class="wrapper-form-icons">
-              <input
-                type="number"
-                name="user_card"
-                id="user_card"
-                class="input-form card"
-                placeholder="Enter card"
-                title="xxxx-xxxx-xxxx-xxxx"
-                required
-              />
-              <svg class="icons-form-mastercard">
-                <use href="./images/icons.svg#icon-Mastercard"></use>
-              </svg>
-            </div>
-          </div>
-
+    <div class="form-field">
+      <label for="user_email" class="label-modal">Email</label>
+      <div class="wrapper-form-icons">
+        <input
+          type="email"
+          name="user_email"
+          id="user_email"
+          class="input-form"
+          required
+          placeholder="Enter your email"
+        />
+      </div>
+    </div>
     <div class="form-field">
       <label for="user_phone" class="label-modal">Phone number</label>
       <div class="wrapper-form-icons">
@@ -156,7 +145,6 @@
         <span class="code-tel">+380 </span>
       </div>
     </div>
-
     <div class="form-field">
       <label for="user_card" class="label-modal">Card number</label>
       <div class="wrapper-form-icons">
@@ -166,7 +154,6 @@
           id="user_card"
           class="input-form card"
           placeholder="Enter card"
-          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
           title="xxxx-xxxx-xxxx-xxxx"
           required
         />
@@ -175,7 +162,6 @@
         </svg>
       </div>
     </div>
-
     <div class="form-field-textarea">
       <label for="user_comment" class="label-modal">Comment</label>
       <textarea
