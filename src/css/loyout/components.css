@@ -112,6 +112,7 @@
   padding: 28px;
   transform: translateY(100%);
   transition: transform 250ms var(--time-transition);
+  overflow-y: scroll;
 }
 .components-link:hover .components-overlay,
 .components-link:focus .components-overlay {
