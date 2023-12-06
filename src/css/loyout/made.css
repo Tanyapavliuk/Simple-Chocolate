@@ -1,5 +1,5 @@
 .made-tittle {
-  margin: 0 0 50px 0;
+  margin: 0 auto 50px;
 }
 .made-list {
   list-style-image: url(/images/made/item.svg);
@@ -31,7 +31,6 @@
 .made-container {
   display: flex;
   gap: 20px;
-  align-items: center;
 }
 .made-section {
   text-align: center;
@@ -44,7 +43,7 @@
 }
 @media screen and (max-width: 767px) {
   .made-tittle {
-    margin: 0 0 32px 0;
+    padding: 0 0 32px 0;
   }
   .made-text-block {
     max-width: 335px;

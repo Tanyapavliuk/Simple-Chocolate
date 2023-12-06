@@ -3,7 +3,6 @@
     display: none;
   }
 }
-
 .modal {
   padding: 32px 24px;
   max-width: 310px;
@@ -11,18 +10,14 @@
   height: auto;
   max-height: 90vh;
   overflow-y: scroll;
-
   background: #e2e2e2;
   border-radius: 13px;
 }
-
 .modal-close-button {
   position: absolute;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   top: 20px;
   right: 20px;
   padding: 0;
@@ -31,19 +26,15 @@
   background-color: transparent;
   cursor: pointer;
 }
-
 .modal-close-btn {
   width: 16px;
   height: 16px;
   stroke: var(--color--black-text);
 }
-
 /* ====== O r d e r - b o x ======== */
-
 .section-title {
   margin-bottom: 32px;
 }
-
 .card-order.lii {
   min-width: 0;
   display: flex;
@@ -51,36 +42,28 @@
   align-items: center;
   justify-content: center;
   padding: 32px 32px 18px 32px;
-
   margin-bottom: 24px;
-
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
 }
-
 .img-order.swiper-buy-img {
   margin-bottom: 16px;
 }
-
 .set-content {
   background: #fafafa;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 100px;
-
   padding: 8px 28px;
   width: 96px;
 }
-
 .title-order {
   text-align: center;
-
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
   color: var(--color--black-text);
 }
-
 ::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -88,15 +71,12 @@
   letter-spacing: -0.02em;
   color: rgba(64, 64, 64, 0.3);
 }
-
 /* ======= Forme======= */
-
 .modal-form {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
-
 .title-text-form {
   text-align: center;
   margin-bottom: 16px;
@@ -106,104 +86,83 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-
 .input-form {
   padding: 14px 18px;
   width: 100%;
   height: 45px;
-
   font-family: inherit;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-
   line-height: 1.22;
   letter-spacing: -0.02em;
-
   border-radius: 8px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
-
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .input-form:focus {
   border-color: #ffe1b5;
   outline: none;
 }
-
 .comment-form {
   display: block;
   padding: 14px 18px;
-
   width: 100%;
   height: 91px;
   resize: none;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 13px;
-
   font-family: inherit;
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: -0.02em;
-
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .comment-form:focus {
   border-color: #ffe1b5;
   outline: none;
 }
-
 .label-modal {
   display: block;
   margin-bottom: 8px;
-
   font-weight: 500;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: var(--color--black-text);
 }
-
 .wrapper-form-icons {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   row-gap: 14px;
 }
-
 .input-form.phone {
   padding-left: 106px;
 }
-
 .icons-form {
   position: absolute;
   top: 50%;
   left: 18px;
   transform: translateY(-50%);
-
   display: block;
   width: 24px;
   height: 18px;
 }
-
 .code-tel {
   position: absolute;
   top: 50%;
   left: 50px;
   transform: translateY(-50%);
-
   display: flex;
   align-items: center;
   gap: 8px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: -0.02em;
   color: var(--color--black-text);
 }
-
 .code-tel::after {
   content: '';
   display: block;
@@ -211,18 +170,15 @@
   height: 26px;
   background-color: rgba(17, 17, 17, 0.05);
 }
-
 .icons-form-mastercard {
   position: absolute;
   top: 50%;
   right: 18px;
   transform: translateY(-50%);
-
   display: block;
   width: 22px;
   height: 15px;
 }
-
 .primary.btn-forme {
   align-self: left;
   width: 110px;
@@ -230,127 +186,98 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 /*======================================================= */
 /*=========== Modal window for tablet / desctop ========= */
 /*======================================================= */
-
 @media screen and (min-width: 768px) {
   .modal {
     padding: 48px;
     max-width: 610px;
   }
-
   .modal-close-button {
     top: 24px;
     right: 24px;
   }
-
   .modal-close-btn {
     width: 20px;
     height: 20px;
   }
-
   /* ====== O r d e r - b o x ======== */
-
   .card-order {
     padding: 24px 20px 18px;
     margin: 0px;
     height: 196px;
     width: 160px;
-
     background: #ffffff;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
   }
-
   .img-order.swiper-buy-img {
     margin-bottom: 18px;
   }
-
   .title-order {
     font-weight: 500;
   }
-
   ::placeholder {
     font-size: 18px;
   }
-
   /* ======= Forme======= */
-
   .title-text-form {
     font-size: 16px;
     line-height: 1.5;
   }
-
   .input-form {
     padding: 22px 24px;
     height: 66px;
-
     border-radius: 13px;
   }
-
   .comment-form {
     padding: 22px 24px;
-
     height: 136px;
-
     font-size: 18px;
     line-height: 1.22;
   }
-
   .label-modal {
     font-size: 14px;
     line-height: 1.29;
   }
-
   .wrapper-form-icons {
     flex-wrap: nowrap;
     gap: 20px;
   }
-
   .input-form.phone {
     padding-left: 177px;
   }
-
   .icons-form {
     left: 16px;
     transform: translateY(-50%);
-
     width: 32px;
     height: 24px;
   }
-
   .code-tel {
     left: 74px;
     gap: 32px;
     font-size: 18px;
     line-height: 1.22;
   }
-
   .code-tel::after {
     content: '';
     height: 32px;
     background-color: rgba(17, 17, 17, 0.05);
   }
-
   .icons-form-mastercard {
     right: 24px;
     width: 44px;
     height: 30px;
   }
-
   .primary.btn-forme {
     width: 133px;
     height: 45px;
   }
 }
-
 /* ======= S L I D E R =========== */
-
 .swiper-buy.swiper-initialized.swiper-horizontal.swiper-backface-hidden{
   overflow: hidden;
 }
@@ -358,12 +285,10 @@
   width: 231px;
   margin-bottom: 32px;
 }
-
 .swiper-slide {
   width: 100%;
   height: 100%;
 }
-
 .swiper-pagination-bullet {
   background-color: var(--color--gray-text);
   width: 13px;
@@ -372,23 +297,19 @@
 .body_swiper-buy{
   position: relative;
 }
-
 .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal.pagination-buy {
   position: absolute;
   bottom: 0;
 }
-
 .swiper-pagination-bullet-active {
   width: 28px;
   height: 12px;
   background-color: var(--color--brend);
 }
-
 @media screen and (min-width: 768px) {
   .swiper-pagination.pagination-buy {
     display: none;
   }
-
   .swiper.swiper-buy {
     width: 513px;
   }

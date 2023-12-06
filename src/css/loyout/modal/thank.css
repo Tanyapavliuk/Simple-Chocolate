@@ -1,5 +1,4 @@
 .modal.thanks {
-  position: fixed;
   padding: 84px 24px 170px 68px;
   max-width: 311px;
   max-height: 350px;
@@ -24,6 +23,7 @@
   height: 28px;
   border-radius: 50%;
   background-color: var(--color--hover-brend);
+
 }
 
 .modal-close-btn.thanks {

@@ -43,6 +43,12 @@
         max-width: 29.1875rem;
     }
 }
+.button-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
 ._ibg{
     position: relative; 
 }
